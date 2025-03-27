@@ -87,30 +87,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-.github-button, .patreon-button, .youtube-button {
-	display: inline-block;
-	height: 80px;
-	width: 80px;
-	image-rendering: pixelated;
-	background-size: cover;
-}
-
-.github-button {
-	background-image: url('assets/btn-github.png');
-}
-
-.youtube-button {
-	background-image: url('assets/btn-youtube.png');
-}
-
-.github-button:hover {
-	background-image: url('assets/btn-github-hover.png');
-}
-
-.youtube-button:hover {
-	background-image: url('assets/btn-youtube-hover.png');
-}
-
 .minecraft-button {
 	display: inline-block;
 	width: 400px;
