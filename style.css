@@ -83,7 +83,7 @@ body {
 	height: 143px;
 	max-height: 90%;
 	image-rendering: pixelated;
-	background-size: contain;
+	background-size: auto;
 }
 
 .github-button, .patreon-button, .youtube-button {
