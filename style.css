@@ -80,6 +80,8 @@ body {
 	aspect-ratio: 720 / 143;
 	width: 720px;
 	max-width: 90%;
+	height: 143px;
+	max-height: 90%;
 	image-rendering: pixelated;
 	background-size: auto;
 }
