@@ -77,7 +77,7 @@ body {
 .logo {
 	background-image: url('assets/logo.png');
 	display: inline-block;
-	aspect-ratio: 720 / 188;
+	aspect-ratio: 720 / 143;
 	width: 720px;
 	max-width: 90%;
 	image-rendering: pixelated;
