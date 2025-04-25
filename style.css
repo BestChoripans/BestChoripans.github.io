@@ -114,6 +114,10 @@ h1 {
     font-size: 32px;
 }
 
+h2 {
+	color: #b6b6b6;
+}
+
 h2:before {
 	content: '--- ';
 }
@@ -166,4 +170,34 @@ h2:after {
 	100% {
 		background-position: calc(100vh / 144 * -820);
 	}
+}
+
+.cajaxd {
+	width: 1000px;
+	height: 630px;
+	background-image: url('assets/dirt.png');
+	text-align: center;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	padding-top: 10px;
+	max-width: 90%;
+}
+
+p {
+	color: #b6b6b6;
+}
+
+h4 {
+	color: #b6b6b6;
+}
+
+li {
+	color: #b6b6b6;
+}
+
+.redes {
+	color: rgb(189, 135, 216);
+	font-weight: bold;
 }
