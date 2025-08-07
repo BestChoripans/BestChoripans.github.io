@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 @font-face {
   font-family: 'Minecraft'; 
   src: url('assets/Minecraft-LCE.eot?') format('embedded-opentype'),
@@ -173,8 +175,8 @@ h2:after {
 }
 
 .cajaxd {
-	width: 1000px;
-	height: 775px;
+	width: auto;
+	height: auto;
 	background-image: url('assets/dirt.png');
 	text-align: center;
 	margin-top: 10px;
@@ -183,10 +185,22 @@ h2:after {
 	border-radius: 30px;
 	padding-top: 10px;
 	max-width: 90%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	animation: cajaxd 10s linear infinite;
+}
+
+a {
+	text-decoration: none;
+    color: #b6b6b6;
 }
 
 p {
 	color: #b6b6b6;
+}
+
+p strong a:hover {
+    color: #9129CF;
+    transition: color 0.8s ease;
 }
 
 h4 {
@@ -200,4 +214,28 @@ li {
 .redes {
 	color: rgb(189, 135, 216);
 	font-weight: bold;
+}
+
+header h1 {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	color: rgb(177, 148, 223);
+}
+
+footer {
+	position: flex;
+	margin-top: 10%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #b6b6b6;
+	text-align: center;
+	padding: 10px;
+}
+
+footer p {
+	font-family: sans-serif;
+	font-size: 14px;
 }
