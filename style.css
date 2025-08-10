@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 @font-face {
-  font-family: 'Minecraft'; 
-  src: url('assets/Minecraft-LCE.eot?') format('embedded-opentype'),
-       url('assets/Minecraft-LCE.ttf') format('truetype'),
-       url('assets/Minecraft-LCE.woff') format('woff'),
-       url('assets/Minecraft-LCE.woff2') format('woff2');
-  
-  font-style: normal;
-  font-weight: normal;
+	font-family: 'Minecraft';
+	src: url('assets/Minecraft-LCE.eot?') format('embedded-opentype'),
+		url('assets/Minecraft-LCE.ttf') format('truetype'),
+		url('assets/Minecraft-LCE.woff') format('woff'),
+		url('assets/Minecraft-LCE.woff2') format('woff2');
+
+	font-style: normal;
+	font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Minecraft'; 
-  src: url('assets/Minecraft-LCE-Bold.eot?') format('embedded-opentype'),
-       url('assets/Minecraft-LCE-Bold.ttf') format('truetype'),
-       url('assets/Minecraft-LCE-Bold.woff') format('woff'),
-       url('assets/Minecraft-LCE-Bold.woff2') format('woff2');
-  
-  font-style: normal;
-  font-weight: bold;
+	font-family: 'Minecraft';
+	src: url('assets/Minecraft-LCE-Bold.eot?') format('embedded-opentype'),
+		url('assets/Minecraft-LCE-Bold.ttf') format('truetype'),
+		url('assets/Minecraft-LCE-Bold.woff') format('woff'),
+		url('assets/Minecraft-LCE-Bold.woff2') format('woff2');
+
+	font-style: normal;
+	font-weight: bold;
 }
 
 body {
@@ -35,6 +35,7 @@ body {
 	background-repeat: repeat-x;
 	animation: panorama 60s linear infinite;
 }
+
 /* Esto es para los Splash Text */
 /*
 .subtitle {
@@ -51,7 +52,7 @@ body {
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 	text-align: right;
-  }
+	}
 */
 
 .backdrop-blur {
@@ -104,16 +105,16 @@ body {
 
 .button-list {
 	display: grid;
-    gap: 8px;
-    margin: 8px;
-    grid-template-columns: auto;
+	gap: 8px;
+	margin: 8px;
+	grid-template-columns: auto;
 }
 
 h1 {
 	font-weight: bold;
-    text-shadow: 0.125em 0.125em #3f3f15;
-    color: #FFFF55;
-    font-size: 32px;
+	text-shadow: 0.125em 0.125em #3f3f15;
+	color: #FFFF55;
+	font-size: 32px;
 }
 
 h2 {
@@ -123,6 +124,7 @@ h2 {
 h2:before {
 	content: '--- ';
 }
+
 h2:after {
 	content: ' ---';
 }
@@ -134,10 +136,11 @@ h2:after {
 	image-rendering: pixelated;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
 	h2:before {
 		content: '';
 	}
+
 	h2:after {
 		content: '';
 	}
@@ -152,13 +155,13 @@ h2:after {
 	max-width: 90%;
 }
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 530px) {
 	.minecraft-button {
 		width: 240px;
 		font-size: 10px;
 		background-image: url('assets/btn-minecraft-small.png');
 	}
-	
+
 	.minecraft-button:hover {
 		background-image: url('assets/btn-minecraft-small-hover.png');
 	}
@@ -168,7 +171,7 @@ h2:after {
 	0% {
 		background-position: 0;
 	}
-	
+
 	100% {
 		background-position: calc(100vh / 144 * -820);
 	}
@@ -184,6 +187,7 @@ h2:after {
 	margin-right: auto;
 	border-radius: 30px;
 	padding-top: 10px;
+	padding-bottom: 15px;
 	max-width: 90%;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	animation: cajaxd 10s linear infinite;
@@ -191,20 +195,21 @@ h2:after {
 
 a {
 	text-decoration: none;
-    color: #b6b6b6;
+	color: #b6b6b6;
 }
 
 p {
 	color: #b6b6b6;
 }
 
-p strong a:hover {
-    color: #9129CF;
-    transition: color 0.8s ease;
+a:hover {
+	color: #9129CF;
+	transition: color 0.8s ease;
 }
 
 h4 {
 	color: #b6b6b6;
+	text-align: center;
 }
 
 li {
@@ -214,6 +219,24 @@ li {
 .redes {
 	color: rgb(189, 135, 216);
 	font-weight: bold;
+}
+
+header {
+	margin-top: auto;
+	margin-bottom: 3%;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: flex;
+}
+
+#back {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
 
 header h1 {
