@@ -10,7 +10,7 @@ Este sitio contiene links a mis redes tales como twitter, twitch, youtube y este
 fue creada usando parte del codigo fuente de la pagina web de legacy edition minigames 
 entonces todos los creditos a ellos.
 
-### LINKS
+### Links
 
 [LEM Website](https://www.legacyminigames.net/)
 
