@@ -1,6 +1,3 @@
-var panoramaPosition = 0;
-var clicks = 0;
-
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
 } else if (localStorage.panoramaMovement == "false") {
@@ -56,18 +53,6 @@ function showTime() {
 
 showTime();
 
-function PlayAudio() {
-	document.getElementById("MusicMenu").play();
-}
-
 function delay (URL) {
     setTimeout( function() { window.location = URL }, 500 );
-}
-
-function clickcounter() {
-	clicks++;
-	if(clicks==15){
-		document.getElementById("easteregg").play();
-		clicks=0;
-	}
 }
