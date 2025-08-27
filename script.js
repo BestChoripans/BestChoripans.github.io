@@ -1,4 +1,5 @@
 var panoramaPosition = 0;
+var clicks = 0;
 
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
@@ -61,4 +62,12 @@ function PlayAudio() {
 
 function delay (URL) {
     setTimeout( function() { window.location = URL }, 500 );
+}
+
+function clickcounter() {
+	clicks++;
+	if(clicks==15){
+		document.getElementById("easteregg").play();
+		clicks=0;
+	}
 }
