@@ -257,7 +257,14 @@ footer p {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 3%;
 	color: cadetblue;
 	text-decoration: underline;
+}
+
+#footerl {
+	width: 100%;
+    position: fixed;
+	bottom: 0px;
+	flex-grow: 1;
 }
