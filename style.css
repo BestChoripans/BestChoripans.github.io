@@ -251,3 +251,13 @@ footer p {
 	font-family: sans-serif;
 	font-size: 14px;
 }
+
+#links a {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 5%;
+	color: cadetblue;
+	text-decoration: underline;
+}
