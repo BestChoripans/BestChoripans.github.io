@@ -30,8 +30,6 @@ body {
 	background-image: url('assets/panorama.webp');
 	background-size: cover;
 	background-attachment: fixed;
-	margin: 0;
-	padding: 0;
 	background-repeat: repeat-x;
 	animation: panorama 60s linear infinite;
 }
@@ -225,10 +223,6 @@ header {
 	margin-bottom: 3%;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 10px;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
 	position: flex;
 }
 
@@ -248,9 +242,6 @@ header h1 {
 footer {
 	position: flex;
 	margin-top: 10%;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: #b6b6b6;
 	text-align: center;

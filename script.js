@@ -1,3 +1,4 @@
+/* -- Functions -- */
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
 } else if (localStorage.panoramaMovement == "false") {
@@ -5,22 +6,14 @@ if (localStorage.panoramaMovement == undefined) {
 }
 
 function clickSound() {
+	/* Play a click sound when you click a button */
 	document.getElementById("click").play();
-}
-
-function triggerPanoramaMovement() {
-	if (localStorage.panoramaMovement == "false") {
-		document.body.style.animation = "";
-		localStorage.panoramaMovement = "true";
-	} else {
-		document.body.style.animation = "none";
-		localStorage.panoramaMovement = "false";
-	}
 }
 
 setInterval(showTime, 1000);
 
-function showTime() {
+function showTime() { 
+	/* take the cl time and transform it to AM-PM format */
 	let time = new Date();
 	let hour = time.getHours();
 	let min = time.getMinutes();
@@ -53,6 +46,7 @@ function showTime() {
 
 showTime();
 
-function delay (URL) {
+function delay (URL) { 
+	/* Delay for the sound can be hear */
     setTimeout( function() { window.location = URL }, 500 );
 }
