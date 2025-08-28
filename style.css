@@ -155,7 +155,6 @@ h2:after {
 @media screen and (max-width: 530px) {
 	.minecraft-button {
 		width: 240px;
-		font-size: auto;
 		background-image: url('assets/btn-minecraft-small.png');
 	}
 
