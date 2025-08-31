@@ -208,6 +208,12 @@ h4 {
 	text-align: center;
 }
 
+ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
 li {
 	color: #b6b6b6;
 }
