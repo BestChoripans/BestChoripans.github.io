@@ -240,10 +240,10 @@ header h1 {
 }
 
 footer {
-	display: flex;
-	flex-direction: column;
+	position:relative;
+	margin-top: 11%;
+	margin-bottom: auto;
 	width: auto;
-	margin-top: 25%;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: #b6b6b6;
 	text-align: center;
