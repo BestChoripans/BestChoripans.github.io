@@ -22,6 +22,5 @@
   Links
 </h4>
 
-[LEM Website](https://www.legacyminigames.net/)
-
-[LEM Website Credits](https://github.com/Legacy-Edition-Minigames/Website?tab=readme-ov-file#credits)
+- LEM Website: https://www.legacyminigames.net/
+- LEM Website Credits: https://github.com/Legacy-Edition-Minigames/Website?tab=readme-ov-file#credits
