@@ -19,7 +19,9 @@
 
 <br>
 <br>
-<p> <img width="60%" height="30%" alt="imagen" src="https://github.com/user-attachments/assets/7f3e12f5-b793-4681-a1da-9036cc2a30fd"/> </p>
+<p align="center" width="100%">
+    <img width="60%" heigh="30%" src="[https://i.stack.imgur.com/RJj4x.png](https://github.com/user-attachments/assets/7f3e12f5-b793-4681-a1da-9036cc2a30fd)"> 
+</p>
 
 
 <br>
