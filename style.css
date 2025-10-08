@@ -31,7 +31,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: repeat-x;
-	animation: panorama 60s linear infinite;
+	animation: panorama 120s linear infinite;
 }
 
 /* Esto es para los Splash Text */
@@ -264,3 +264,4 @@ footer p {
 	color: cadetblue;
 	text-decoration: underline;
 }
+
