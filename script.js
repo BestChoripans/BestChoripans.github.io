@@ -1,18 +1,21 @@
-/* -- Functions -- */
+// ---- PANORAMA ---- \\
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
 } else if (localStorage.panoramaMovement == "false") {
 	document.body.style.animation = "none";
 }
 
+// ---- FUNCTIONS ---- \\
+
 function clickSound() {
-	/* Play a click sound when you click a button */
+    // BUTTON CLICK SOUND EFFECT \\
 	document.getElementById("click").play();
 }
 
 setInterval(showTime, 1000);
 
 function showTime() {
+    // current time in chile xD \\
     let time = new Date();
 
     let options = {
@@ -27,9 +30,7 @@ function showTime() {
     document.getElementById("clock").innerHTML = currentTime;
 }
 
-showTime();
-
 function delay (URL) { 
-	/* Delay for the sound can be hear */
+	// Delay for the click sound effect XD \\
     setTimeout( function() { window.location = URL }, 500 );
 }
