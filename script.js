@@ -34,3 +34,14 @@ function delay (URL) {
 	// Delay for the click sound effect XD \\
     setTimeout( function() { window.location = URL }, 500 );
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const buttonlist = document.querySelector('.button-list');
+    const logo = document.querySelector('.logo')
+    setTimeout(() => {
+        buttonlist.classList.add('show');
+    }, 250);
+    setTimeout(() => {
+        logo.classList.add('show');
+    }, 250)
+});

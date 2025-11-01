@@ -77,6 +77,14 @@ body {
 	image-rendering: pixelated;
 	background-size: contain;
 	background-repeat: no-repeat;
+	opacity: 0;
+	transform: translateY(-30px);
+	transition: opacity 1s ease-out, transform 0.9s ease-out;
+}
+
+.logo.show {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .minecraft-button {
@@ -105,6 +113,14 @@ body {
 	gap: 8px;
 	margin: 8px;
 	grid-template-columns: auto;
+	opacity: 0;
+	transform: translateY(-30px);
+	transition: opacity 1s ease-out, transform 0.65s ease-out;
+}
+
+.button-list.show{
+	opacity: 1;
+	transform: translateY(0);
 }
 
 h1 {
@@ -264,4 +280,3 @@ footer p {
 	color: cadetblue;
 	text-decoration: underline;
 }
-
