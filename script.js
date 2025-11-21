@@ -1,21 +1,20 @@
-// ---- PANORAMA ---- \\
-if (localStorage.panoramaMovement == undefined) {
-	localStorage.panoramaMovement = "true";
-} else if (localStorage.panoramaMovement == "false") {
-	document.body.style.animation = "none";
-}
+// ---- CONSTANTS ----
+const clock = document.getElementById("clock");
+const click = document.getElementById("click");
+const bl = document.querySelector('.button-list');
+const ico = document.querySelector('.logo')
 
 // ---- FUNCTIONS ---- \\
 
 function clickSound() {
-    // BUTTON CLICK SOUND EFFECT \\
-	document.getElementById("click").play();
+    // - button click sound - \\
+	click.play();
 }
 
 setInterval(showTime, 1000);
 
 function showTime() {
-    // current time in chile xD \\
+    // - Current time in Chile - \\
     let time = new Date();
 
     let options = {
@@ -27,21 +26,26 @@ function showTime() {
 
     let currentTime = time.toLocaleString("en-US", options);
 
-    document.getElementById("clock").innerHTML = currentTime;
+    clock.innerHTML = currentTime;
 }
 
-function delay (URL) { 
-	// Delay for the click sound effect XD \\
+function delay (URL) {
+	// - Delay for the button click sound - \\
     setTimeout( function() { window.location = URL }, 500 );
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const buttonlist = document.querySelector('.button-list');
-    const logo = document.querySelector('.logo')
     setTimeout(() => {
-        buttonlist.classList.add('show');
+        bl.classList.add('show');
     }, 250);
     setTimeout(() => {
-        logo.classList.add('show');
+        ico.classList.add('show');
     }, 250)
 });
+
+// ---- PANORAMA ---- \\
+if (localStorage.panoramaMovement == undefined) {
+	localStorage.panoramaMovement = "true";
+} else if (localStorage.panoramaMovement == "false") {
+	document.body.style.animation = "none";
+}
